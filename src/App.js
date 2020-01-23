@@ -1,8 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import LOGO from './LOGO-SS.png';
-import FBLOGO from './FB-LOGO.png';
 
 function App() {
   return (
