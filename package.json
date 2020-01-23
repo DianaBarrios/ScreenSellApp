@@ -1,5 +1,6 @@
 {
   "name": "screen-sell-app",
+  "homepage:" "http://screensell.com.mx/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
