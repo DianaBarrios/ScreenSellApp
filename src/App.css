@@ -38,6 +38,8 @@
 
 .App-footer {
   background-color: black;
+  color: white;
+  padding: 45px;
 }
 
 @keyframes App-logo-spin {

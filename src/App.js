@@ -100,29 +100,6 @@ function App() {
                       <small>screenselltijuana</small>
                     </p>
                   </p>
-
-                  <p class="card-text">
-                    Tijuana
-                    <a href="https://www.facebook.com/screensell">
-                      <span class="text-decoration-none"> @screensell</span>
-                    </a>{" "}
-                    <p>
-                      <small>+664-638-4869</small>
-                    </p>
-                  </p>
-
-                  <p class="card-text">
-                    Culiacán
-                    <a href="https://www.facebook.com/screensellculiacan/">
-                      <span class="text-decoration-none">
-                        {" "}
-                        @screensellculiacan
-                      </span>
-                    </a>{" "}
-                    <p>
-                      <small>+667-258-5082</small>
-                    </p>
-                  </p>
                 </div>
               </div>
             </div>
@@ -130,20 +107,27 @@ function App() {
         </div>
       </div>
 
-      <div class="container my-5">
-        <div class="row mx-5 mb-3 justify-content-center">
-          <h2>Nuestras ubicaciones</h2>
-        </div>
-        <div class="row mx-3 justify-content-center">
-          <iframe
-            src="https://www.google.com/maps/d/embed?mid=1QK_YS8xR0CuxuHy8GtRZLrvbpOr-N024"
-            width="500"
-            height="400"
-          ></iframe>
-        </div>
-      </div>
+      <div class="container-fluid mt-5 App-footer">
+        <p>
+          Tijuana
+          <a href="https://www.facebook.com/screensell">
+            <span class="text-decoration-none"> @screensell</span>
+          </a>{" "}
+          <p>
+            <small>+664-638-4869</small>
+          </p>
+        </p>
 
-      <div class="container mt-5 App-footer">This is the footer</div>
+        <p>
+          Culiacán
+          <a href="https://www.facebook.com/screensellculiacan/">
+            <span class="text-decoration-none"> @screensellculiacan</span>
+          </a>{" "}
+          <p>
+            <small>+667-258-5082</small>
+          </p>
+        </p>
+      </div>
     </div>
   );
 }
